@@ -24,7 +24,7 @@ $(document).ready(function() {
 
   $("#porcelenaTimelineContent").inViewport(function(px){
       if(px) {
-          $("#porcelenaTimelineContent").addClass("bounce-in");
+          $("#porcelenaTimelineContent").addClass("fadeInLeft");
           $("#porcelenaTimelineContent").css("opacity", "1");
       }
   });
@@ -46,14 +46,14 @@ $(document).ready(function() {
 
   $("#paintingTimelineContent").inViewport(function(px){
     if(px) {
-        $("#paintingTimelineContent").addClass("bounce-in");
+        $("#paintingTimelineContent").addClass("fadeInRight");
         $("#paintingTimelineContent").css("opacity", "1");
     }
   });
 
   $("#paintingProjectContent").inViewport(function(px){
     if(px) {
-        $("#paintingProjectContent").addClass("fadeInLeft");
+        $("#paintingProjectContent").addClass("fadeInRight");
         $("#paintingProjectContent").css("opacity", "1");
     }
   });
@@ -68,7 +68,7 @@ $(document).ready(function() {
 
   $("#biographyTimelineContent").inViewport(function(px){
     if(px) {
-        $("#biographyTimelineContent").addClass("bounce-in");
+        $("#biographyTimelineContent").addClass("fadeInLeft");
         $("#biographyTimelineContent").css("opacity", "1");
     }
   });
